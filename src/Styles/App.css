@@ -1,0 +1,85 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Plus+Jakarta+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body{
+    background: white;
+}
+
+nav {
+    background-color: #F5CE68;
+}
+
+.nav-link:hover {
+    border-bottom: 5px solid #333;
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.title > h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 128px;
+}
+.welcome {
+    font-size: 64px;
+}
+p{
+    text-align: justify;
+}
+.btn-hero {
+    background-color: #F5CE68;
+}
+
+.img-icon {
+    max-width: 100px;
+}
+.btn-service {
+    font-family: 'Pathway Gothic One', sans-serif;
+    max-width: 300px;
+    font-size: 36px;
+}
+
+.card {
+    width: 15rem;
+}
+
+.card-home {
+    border: 0;
+}
+
+.result {
+    width: 100%;
+    max-width: 800px;
+}
+
+.result-info {
+    width: 100%;
+    max-width: 450px;
+}
+
+.gambar-lb {
+    width: 100%;
+    max-width: 400px;
+}
+
+.section-faq {
+    max-width: 80%;
+}
+
+.footer-logo {
+    width: 100%;
+    max-width: 200px;
+}
+
+.acak-header {
+    background-color: #F5CE68;
+}
